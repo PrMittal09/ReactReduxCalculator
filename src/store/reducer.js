@@ -1,3 +1,4 @@
+import * as math from 'mathjs';
 const initialState = {
     result: ""
 };
@@ -7,7 +8,7 @@ const calcireducer=(state=initialState,action) => {
         if(action.type== 'calculate')
         {
             try {
-            newState.result=math.eval(newState.result) || "" + "";
+            newState.result=math.evaluate(newState.result) || "" + "";
             } catch (e) {
                 newState.result="error";
             }
