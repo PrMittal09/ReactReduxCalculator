@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "heroku": "^7.40.0",
+    "mathjs": "^7.0.0",
     "normalize-path": "^3.0.0",
     "react": "^16.13.1",
     "react-dev-utils": "^10.0.0",
