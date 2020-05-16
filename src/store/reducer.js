@@ -7,7 +7,7 @@ const calcireducer=(state=initialState,action) => {
         if(action.type== 'calculate')
         {
             try {
-            newState.result=eval(newState.result) || "" + "";
+            newState.result=math.eval(newState.result) || "" + "";
             } catch (e) {
                 newState.result="error";
             }
