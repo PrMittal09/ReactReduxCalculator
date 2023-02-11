@@ -2,6 +2,9 @@
   "name": "reactcalculator",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "^10.9.0"
+  },
   "dependencies": {
     "heroku": "^7.40.0",
     "mathjs": "^7.0.0",
